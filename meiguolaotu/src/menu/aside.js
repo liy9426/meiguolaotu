@@ -2,12 +2,20 @@
 export default [
   { path: '/index', title: '首页', icon: 'home' },
   {
-    title: '演示页面',
+    title: '金融',
     icon: 'folder-o',
     children: [
-      { path: '/demo/page1', title: '页面 1' },
-      { path: '/demo/page2', title: '页面 2' },
-      { path: '/demo/page3', title: '页面 3' }
+      { path: '/finance/chinaStock', title: '国内行情', icon: 'cny' },
+      { path: '/finance/usStock', title: '美国行情', icon: 'dollar' },
+      { path: '/finance/bitcoin', title: '加密货币', icon: 'bitcoin' }
+    ]
+  },
+  {
+    title: '生活',
+    icon: 'folder-o',
+    children: [
+      { path: '/service/food', title: '点餐服务', icon: 'cutlery' },
+      { path: '/service/movie', title: '电影频道', icon: 'film' }
     ]
   }
 ]

@@ -1,4 +1,5 @@
-import demo from './modules/demo'
+import finance from './modules/finance'
+import service from './modules/service'
 
 import layoutHeaderAside from '@/layout/header-aside'
 
@@ -46,7 +47,8 @@ const frameIn = [
       }
     ]
   },
-  demo
+  finance,
+  service
 ]
 
 /**

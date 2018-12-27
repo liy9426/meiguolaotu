@@ -1,7 +1,7 @@
-import request from '@/plugin/axios'
+import fetch from '@/plugin/axios'
 
 export function AccountLogin (data) {
-  return request({
+  return fetch({
     url: '/login',
     method: 'post',
     data
